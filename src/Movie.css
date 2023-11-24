@@ -1,0 +1,88 @@
+ /*Movie.css  */
+
+.App {
+    text-align: center;
+  }
+  
+  /*
+  Background
+  */
+  .App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  /*
+  BG tulisan
+  */
+  .Movie-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /*
+  Tulisan dan kotak
+  */
+  .Movie-wrapper {
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    overflow: hidden; /* Add overflow property */
+  }
+  
+  /*
+  search bar
+  */
+  .Movie-search {
+    height: 20px;
+    font-size: 15px;
+    margin-bottom: 32px;
+    padding: 20px;
+    font-weight: bold;
+    width: 50%;
+  }
+  
+  .Movie-title {
+    height: 30px;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bold;
+    overflow: hidden; /* Add overflow property */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; /* Display an ellipsis (...) to indicate text overflow */
+  }
+  
+  .Movie-date {
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  .Movie-rate {
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  
+  .Movie-image {
+    max-width: 100%;
+    height: auto; /* Menjaga aspek rasio gambar */
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  

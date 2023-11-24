@@ -1,0 +1,47 @@
+/* DetailMovie.css */
+
+.detail-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  
+}
+
+.detail-movie img {
+  max-width: 20%; /* Menggunakan lebar maksimum agar gambar responsif */
+  height: auto; /* Menjaga aspek rasio gambar */
+    box-shadow: 0 4px 8px rgba(175, 175, 175, 0.493);
+}
+
+.detail-movie h2 {
+  font-size: 24px; /* Menyesuaikan ukuran font judul */
+  margin-bottom: 1px; /* Memberikan ruang antara judul dan elemen berikutnya */
+}
+
+.detail-movie p {
+  margin-bottom: 1px; /* Memberikan ruang antara paragraf */
+}
+
+/* Pilihan tambahan sesuai kebutuhan */
+
+.detail-movie .overview {
+  font-style: italic;
+}
+
+.detail-movie .vote-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-movie .vote-info p {
+  margin: 1;
+}
+
+.detail-movie .popularity {
+  font-weight: bold;
+}
+
+.detail-movie .vote-count {
+  font-weight: bold;
+}

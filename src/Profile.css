@@ -1,0 +1,16 @@
+/* Profile.css */
+.profile-container {
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  .profile-image {
+    width: 20%;
+    height: 20%;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styles as needed */
+  
